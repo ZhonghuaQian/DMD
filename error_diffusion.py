@@ -6,7 +6,12 @@ def error_diffusion(pixel, size):
       Diffuse on a single channel, using Floyd-Steinberg kerenl.
       @param pixel PIL PixelAccess object.
       @param size A tuple to represent the size of pixel.
-      original github code: https://github.com/justmao945/lab/blob/master/halftoning/error-diffusion/ed.py
+      Reference: 
+      1.matlab version: https://cn.mathworks.com/matlabcentral/fileexchange/
+      6953-error-diffusion-algorithm?focused=5058869&tab=function&requestedDomain=www.mathworks.com
+      2.pseudo code: http://www.dfstudios.co.uk/articles/
+      programming/image-programming-algorithms/image-processing-algorithms-part-2-error-diffusion/
+      
     '''
     for x in range(size[0]):
         for y in range(size[1]):
