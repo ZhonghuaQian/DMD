@@ -1,5 +1,5 @@
 # DMD
 DMD control
 ## Error diffusion algorithm 
-See the Error Diffusion directory.
+See the error_diffusion.py. You need PIL and numpy packages.
 
